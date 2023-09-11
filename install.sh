@@ -51,7 +51,7 @@ else
 	steampipe_uri="https://github.com/turbot/steampipe/releases/download/${1}/steampipe_${target}"
 fi
 
-bin_dir="/tmp"
+bin_dir="/tmp/steampipe"
 exe="$bin_dir/steampipe"
 
 test -z "$tmp_dir" && tmp_dir="$(mktemp -d)"
